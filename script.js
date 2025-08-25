@@ -6,3 +6,8 @@ function mostraPalavraChave(){
     const palavraChave = processaTexto(texto);
     campoResultado.texContent = palavraChave.join(".");
 }
+fuction processaTexto(texto) {
+    let palavras= texto texto.split(/\P(L)+/u);
+
+    return palavras;
+}
