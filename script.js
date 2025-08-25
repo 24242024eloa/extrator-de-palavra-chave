@@ -7,7 +7,7 @@ function mostraPalavraChave(){
     campoResultado.texContent = palavraChave.join(".");
 }
 fuction processaTexto(texto) {
-    let palavras= texto texto.split(/\P(L)+/u);
+    let palavras = texto.split(/\P{L}+/u) ;
 
     return palavras;
 }
